@@ -1,0 +1,203 @@
+.introduction {
+    display: grid; 
+    grid-template-columns: 1fr auto; 
+    align-items: center; 
+    height: 100%;
+    margin: 50px;
+}
+
+.intro-content {
+    width: 100%;
+    font-size: 120%;
+    margin-right: 10px; 
+    text-align: center;
+}
+
+.intro-content p1{
+    font-size: 80%;
+    height: 30%;
+}
+
+.profile-image {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+
+header {
+    background: #080f09;
+    color: blue;
+    text-shadow: aqua;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #1944c3;
+    text-shadow: #1944c3;
+    text-decoration: none;
+}
+
+.introduction, .skills, .featured-projects, .personal-info, .experience {
+    padding: 50px;
+    margin: 30px;
+    background: #1849b269;
+    border-radius: 5px;
+}
+
+.about -container {
+    max-width: 800px; 
+    margin: 50px auto;
+    padding: 20px;
+    background: rgb(143, 32, 32);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(199, 18, 18, 0.1);
+}
+
+h2 {
+    text-align: Left;
+    color: blue;
+}
+
+h3 {
+    text-align: Left;
+    color: blue;
+}
+
+.about-content {
+    margin-right: 20px; 
+}
+
+.about-image {
+    margin-left: 70%;
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.project-card {
+    border: 1px solid #973131;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.contact-container {
+    align-content: center;
+    max-width: 1000px; 
+    margin: 100px auto;
+    padding: 100px;
+    background: rgb(22, 15, 28);
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(57, 127, 161, 0.1);
+
+h2 {
+    text-align: center;
+    color: #250fb4c7;
+}
+
+.contact-form {
+    margin-bottom: 10px;
+    margin-right: 10%;
+    align-content: center;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #2817c1;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #901159;
+    border-radius: 5px;
+    width: 100%; 
+}
+
+.send-button {
+    padding: 10px;
+    background: blue;
+    color: rgb(227, 224, 223);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.8s;
+}
+
+.send-button:hover {
+    background: #0653c7;
+}
+
+.contact-info {
+    max-width: 800px;  
+    margin: 0 auto; 
+    padding: 20px;
+    background: rgb(42, 19, 89);
+    border-radius: 8px;
+    color: #11a5b9;
+    box-shadow: 0 2px 5px rgba(2, 2, 2, 0.1);
+}
+
+.contact-info h3 {
+    margin-top: 0;
+}
+
+.contact-image {
+    width: 100%;
+    max-width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.contact-info h3{
+    text-align: center;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-info a {
+    color: #133eca;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #faf6f6;
+    color: #b20909;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+}
